@@ -1,0 +1,14 @@
+(function () {
+  let id = document.getElementById("test");
+  
+})();
+
+(function () {
+  let id = document.getElementsByClassName("test");
+  
+})();
+
+(function () {
+  let tag =document.querySelectorAll('div');
+  
+})();
