@@ -1,0 +1,12 @@
+var senseOfLife = 42;
+
+function showVariable (otherSenseOfLife) {
+    if (!otherSenseOfLife) {
+            return alert(senseOfLife);
+    }else {
+             return alert(otherSenseOfLife);
+    }
+    
+  }  
+
+showVariable();
