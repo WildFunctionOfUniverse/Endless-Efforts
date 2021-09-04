@@ -1,1 +1,12 @@
+(function addElements () {
+  let id = document.getElementById("test");
+     let li_1 = document.createElement("li");
+     let li_2 = document.createElement("li");
+     let li_3 = document.createElement("li");
 
+
+    id.appendChild(li_1);  
+    id.appendChild(li_2);  
+    id.appendChild(li_3);           
+
+}());
