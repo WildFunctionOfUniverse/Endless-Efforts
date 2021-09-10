@@ -1,0 +1,29 @@
+function count  (num1, num2, operator) {
+
+    if(operator === '+'||operator ==='-'||operator ==='/'||operator ==='*')
+    {
+   
+        switch(operator) {
+                case  '+':
+                    alert (num1+num2);
+                    break;
+                case '-':
+                    alert (num1-num2);    
+                    break;
+                case '/':
+                    alert (num1/num2);
+                    break;
+                case '*':
+                    alert (num1*num2);    
+                    break;
+        
+            default:
+                alert('Something wrong');
+        }        
+    
+    }  
+    return console.log(count);
+};
+
+
+count(5, 4 , '+');
